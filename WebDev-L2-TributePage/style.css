@@ -1,0 +1,447 @@
+/* ===================================
+   GENERAL SETTINGS
+=================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    line-height: 1.7;
+}
+
+
+/* ===================================
+   NAVIGATION
+=================================== */
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fff8ef, #f5e5d0);
+}
+
+nav {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 0;
+}
+
+nav h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #9b4d20;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #b85c25;
+}
+
+
+/* ===================================
+   HERO SECTION
+=================================== */
+
+.hero-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 70px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.small-title {
+    color: #b85c25;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(45px, 6vw, 75px);
+    line-height: 1.1;
+    color: #432719;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #66564d;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+
+    background: #9b4d20;
+    color: white;
+
+    padding: 13px 25px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #673016;
+    transform: translateY(-3px);
+}
+
+
+/* ===================================
+   HERO IMAGE
+=================================== */
+
+.hero-image {
+    flex: 0 0 380px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 200px 200px 20px 20px;
+
+    box-shadow: 15px 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ===================================
+   SECTION TITLE
+=================================== */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title p {
+    color: #b85c25;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.section-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: #432719;
+}
+
+
+/* ===================================
+   ABOUT
+=================================== */
+
+.about {
+    padding: 100px 10%;
+    background: #ffffff;
+}
+
+.about-content {
+    max-width: 950px;
+    margin: auto;
+}
+
+.about-content p {
+    font-size: 17px;
+    margin-bottom: 22px;
+    color: #555;
+}
+
+
+/* ===================================
+   QUOTE
+=================================== */
+
+.quote-section {
+    padding: 100px 10%;
+
+    background: #432719;
+    color: white;
+
+    text-align: center;
+}
+
+.quote-box {
+    max-width: 900px;
+    margin: auto;
+}
+
+.quote-mark {
+    font-family: Georgia, serif;
+    font-size: 80px;
+    line-height: 0;
+}
+
+blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(25px, 4vw, 40px);
+    line-height: 1.4;
+    margin: 20px 0;
+}
+
+.quote-box p {
+    color: #f0c9a8;
+}
+
+
+/* ===================================
+   TIMELINE
+=================================== */
+
+.timeline-section {
+    padding: 100px 10%;
+    background: #f8f3ed;
+}
+
+.timeline {
+    max-width: 1000px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.timeline-card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.timeline-card:hover {
+    transform: translateY(-8px);
+}
+
+.year {
+    display: inline-block;
+
+    background: #b85c25;
+    color: white;
+
+    padding: 5px 15px;
+
+    border-radius: 20px;
+
+    font-weight: 600;
+
+    margin-bottom: 15px;
+}
+
+.timeline-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: #432719;
+}
+
+.timeline-card p {
+    color: #666;
+}
+
+
+/* ===================================
+   LEGACY
+=================================== */
+
+.legacy {
+    padding: 100px 10%;
+    background: #fff8ef;
+}
+
+.legacy-content {
+    max-width: 1000px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+.legacy-card {
+    text-align: center;
+
+    padding: 35px 25px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.legacy-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: #432719;
+
+    margin-bottom: 10px;
+}
+
+.legacy-card p {
+    color: #666;
+}
+
+
+/* ===================================
+   FOOTER
+=================================== */
+
+footer {
+    text-align: center;
+
+    padding: 50px 20px;
+
+    background: #24150e;
+    color: white;
+}
+
+footer h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #e5d7ce;
+}
+
+.credit {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.source {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.source a {
+    color: #f0c9a8;
+}
+
+
+/* ===================================
+   RESPONSIVE DESIGN
+=================================== */
+
+@media (max-width: 900px) {
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 320px;
+        flex: none;
+    }
+
+    .timeline {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .legacy-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .hero-content {
+        margin-top: 40px;
+    }
+
+    .hero-image {
+        width: 280px;
+    }
+
+    .hero-image img {
+        height: 380px;
+    }
+
+    .about,
+    .timeline-section,
+    .legacy {
+        padding: 70px 6%;
+    }
+
+    .quote-section {
+        padding: 70px 6%;
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .legacy-content {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+}
