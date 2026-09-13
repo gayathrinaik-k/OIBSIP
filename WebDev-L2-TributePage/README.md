@@ -1,30 +1,42 @@
-🌟 Web Development and Designing - Tribute Page
+# 🌟 Tribute Page
 
-📌 Project Description
+A visually engaging Tribute Page created using HTML5 and CSS3 to honor and showcase the life, achievements, and contributions of **Dr. A. P. J. Abdul Kalam**.
 
-This project is a responsive Tribute Page developed to honor and showcase the life, achievements, and contributions of Dr. A. P. J. Abdul Kalam. The page presents important information about his life, achievements, and inspirational thoughts in a simple and attractive design.
+## 📌 Project Overview
 
-📊 Features
+This project is developed as part of the **Oasis Infobyte Web Development and Designing Internship**. The page presents Dr. A. P. J. Abdul Kalam's biography, important achievements, inspirational thoughts, and lasting legacy in a clean and attractive design.
 
-- Display Dr. A. P. J. Abdul Kalam's profile
-- Biography and early life information
-- Display major achievements and contributions
-- Inspirational quotes
-- Important life events
-- Image section with proper styling
-- Clean and user-friendly design
-- Responsive design for different screen sizes
+## ✨ Features
 
-🎯 Technologies Used
+- 🏷️ Tribute heading with Dr. A. P. J. Abdul Kalam's name
+- 🖼️ Profile image and introduction
+- 📖 About Dr. Kalam section
+- 💭 Inspirational quote section
+- 🏆 Journey and achievements timeline
+- 🌟 His Legacy section
+- 🔬 Scientist, President, and Author & Teacher highlights
+- 🎨 Clean and attractive user interface
 
-- HTML5
-- CSS3
+## 🛠️ Technologies Used
 
-📒 Project Files
+- **HTML5** – Page structure and content
+- **CSS3** – Styling, layout, typography, colors, and design
 
-- "index.html" – Structure and content of the Tribute Page
-- "style.css" – Styling, layout, and responsive design
+## 📂 Project Structure
 
-🚀 Outcome
+```text
+Tribute-Page/
+│
+├── index.html
+├── style.css
+└── README.md
 
-Successfully developed a responsive and user-friendly Tribute Page that presents the life, achievements, contributions, and inspirational thoughts of Dr. A. P. J. Abdul Kalam. The project demonstrates the use of HTML5 and CSS3 to create an attractive and responsive web page.
+🏆 Project Outcome
+
+Successfully developed a visually attractive Tribute Page that presents the life, achievements, inspirational thoughts, and legacy of Dr. A. P. J. Abdul Kalam.
+
+📞 Connect with Me
+
+GitHub: https://github.com/gayathrinaik-k/OIBSIP
+
+LinkedIn: https://www.linkedin.com/in/gayathri-bb8b11365
