@@ -1,32 +1,52 @@
-The Calculator is a simple web-based application developed to perform basic mathematical calculations. It provides a clean and user-friendly interface for performing calculations quickly.
+🧮 Web Development and Designing - Calculator
 
-🎯Objective
+📌 Project Description
 
-The main objective is to develop a functional calculator using web technologies and understand the basic concepts of HTML, CSS, and JavaScript.
+This project is a simple and responsive calculator developed using HTML, CSS, and JavaScript.
 
-✨Features
+📊 Features
 
-- Addition, subtraction, multiplication and division
-- Decimal number calculations
-- Clear and delete options
-- Displays input and results
-- User-friendly interface
-- Responsive design
+Addition
 
-🛠️Technologies Used
+Subtraction
 
--🌐HTML – Creates the structure of the calculator
-- 🎨CSS – Provides styling and layout
-- ⚙️JavaScript – Handles calculations and button functionality
+Multiplication
 
-📂Project Structure
+Division
 
-Calculator/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+Percentage
 
-🏆Project Outcome
+Clear button
 
-Successfully developed a functional and responsive calculator that performs basic arithmetic operations. This project helped in understanding HTML structure, CSS styling, and JavaScript functionality.
+Parentheses support
+
+Simple and user-friendly interface
+
+
+🎯 Technologies Used
+
+HTML
+
+CSS
+
+JavaScript
+
+
+📁 Project Files
+
+index.html – Calculator structure
+
+style.css – Calculator design and styling
+
+script.js – Calculator functionality
+
+
+🚀 Outcome
+
+Successfully developed a functional and responsive calculator that performs basic arithmetic operations accurately. The project provides a simple, interactive, and user-friendly interface for performing calculations efficiently.
+
+📞 Connect with Me
+
+GitHub: https://github.com/gayathrinaik-k/OIBSIP
+
+LinkedIn: https://www.linkedin.com/in/gayathri-bb8b11365
