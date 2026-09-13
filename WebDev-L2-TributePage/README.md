@@ -22,20 +22,11 @@ This project is developed as part of the **Oasis Infobyte Web Development and De
 - **HTML5** – Page structure and content
 - **CSS3** – Styling, layout, typography, colors, and design
 
-## 📂 Project Structure
-
-```text
-Tribute-Page/
-│
-├── index.html
-├── style.css
-└── README.md 
-
-##🏆 Project Outcome
+## 🏆 Project Outcome
 
 Successfully developed a visually attractive Tribute Page that presents the life, achievements, inspirational thoughts, and legacy of Dr. A. P. J. Abdul Kalam.
 
-##📞 Connect with Me
+## 📞 Connect with Me
 
 GitHub: https://github.com/gayathrinaik-k/OIBSIP
 
