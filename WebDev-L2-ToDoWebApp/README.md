@@ -1,12 +1,12 @@
-📝 To-Do Web App
+## 📝 To-Do Web App
 
 A simple and user-friendly To-Do Web App designed to help users create, organize, and manage their daily tasks efficiently.
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project was developed as part of the Oasis Infobyte Web Development and Designing Internship – Task 3.The application allows users to add, update, complete, and remove tasks through a clean and responsive interface.Tasks are categorized into Pending and Completed, making it easy to monitor task progress.
 
-🚀 Key Features
+## 🚀 Key Features
 
 ➕ Create new tasks
 
@@ -29,7 +29,7 @@ This project was developed as part of the Oasis Infobyte Web Development and Des
 💬 Helpful empty-state messages
 
 
-🛠️ Technologies
+## 🛠️ Technologies used
 
 HTML5 – Provides the structure of the application
 
@@ -41,11 +41,11 @@ localStorage – Keeps tasks saved in the browser
 
 
 
-🎯 Project Goal
+## 🎯 Project Goal
 
 The main goal of this project is to gain practical experience with JavaScript DOM manipulation, event handling, CRUD operations, localStorage, and responsive web design while developing a useful task-management application.
 
-🔗 Developer Links
+## 🔗 Connect with me
 
 💼 LinkedIn: https://www.linkedin.com/in/gayathri-bb8b11365
 
