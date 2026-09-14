@@ -1,32 +1,60 @@
-📝 Web Development and Designing - To-Do Web App
+📝 To-Do Web App
 
-📌 Project Description
+A simple and user-friendly To-Do Web App designed to help users create, organize, and manage their daily tasks efficiently.
 
-This project is an interactive To-Do Web App developed to help users manage their daily tasks easily. Users can add new tasks, mark tasks as completed, and delete tasks. Tasks are organized into Pending Tasks and Completed Tasks lists with a simple and user-friendly design.
+📌 Project Overview
 
-📊 Features
+This project was developed as part of the Oasis Infobyte Web Development and Designing Internship – Task 3.The application allows users to add, update, complete, and remove tasks through a clean and responsive interface.Tasks are categorized into Pending and Completed, making it easy to monitor task progress.
 
-- Add new tasks
-- Display newly added tasks
-- Mark tasks as completed
-- Display completed tasks separately
-- Delete tasks
-- Simple and user-friendly interface
-- Clean and attractive design
-- Responsive design for different screen sizes
+🚀 Key Features
 
-🎯 Technologies Used
+➕ Create new tasks
 
-- HTML5
-- CSS3
-- JavaScript
+✏️ Modify existing tasks
 
-📒 Project Files
+✅ Mark tasks as completed
 
-- "index.html" – Structure and content of the To-Do Web App
-- "style.css" – Styling, layout, and responsive design
-- "script.js" – Task adding, completing, and deleting functionality
+🗑️ Remove unwanted tasks
 
-🚀 Outcome
+📋 Separate pending and completed tasks
 
-Successfully developed an interactive and responsive To-Do Web App that helps users organize and manage their daily tasks. The project demonstrates the use of HTML5, CSS3, and JavaScript to create a simple, attractive, and functional web application.
+🔢 Show task counts
+
+🕒 Record task timestamps
+
+💾 Store tasks using localStorage
+
+📱 Responsive layout
+
+💬 Helpful empty-state messages
+
+
+🛠️ Technologies
+
+HTML5 – Provides the structure of the application
+
+CSS3 – Handles styling and responsive layout
+
+JavaScript – Manages functionality, events, and DOM operations
+
+localStorage – Keeps tasks saved in the browser
+
+
+📂 Project Files
+
+To-Do-Web-App/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+🎯 Project Goal
+
+The main goal of this project is to gain practical experience with JavaScript DOM manipulation, event handling, CRUD operations, localStorage, and responsive web design while developing a useful task-management application.
+
+🔗 Developer Links
+
+💼 LinkedIn: https://www.linkedin.com/in/gayathri-bb8b11365
+
+💻 GitHub: https://github.com/gayathrinaik-k/OIBSIP
