@@ -1,10 +1,10 @@
-🧮 Web Development and Designing - Calculator
+## 🧮 Web Development and Designing - Calculator
 
-📌 Project Description
+## 📌 Project Description
 
 This project is a simple and responsive calculator developed using HTML, CSS, and JavaScript.
 
-📊 Features
+## 📊 Features
 
 Addition
 
@@ -23,7 +23,7 @@ Parentheses support
 Simple and user-friendly interface
 
 
-🎯 Technologies Used
+## 🎯 Technologies Used
 
 HTML
 
@@ -32,7 +32,7 @@ CSS
 JavaScript
 
 
-📁 Project Files
+## 📁 Project Files
 
 index.html – Calculator structure
 
@@ -41,11 +41,11 @@ style.css – Calculator design and styling
 script.js – Calculator functionality
 
 
-🚀 Outcome
+## 🚀 Outcome
 
 Successfully developed a functional and responsive calculator that performs basic arithmetic operations accurately. The project provides a simple, interactive, and user-friendly interface for performing calculations efficiently.
 
-📞 Connect with Me
+## 📞 Connect with Me
 
 GitHub: https://github.com/gayathrinaik-k/OIBSIP
 
