@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SecureGate - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <div class="dashHead">
+        <div>
+            <small>PRIVATE DASHBOARD</small>
+            <h1>Welcome, <span id="userName"></span> 👋</h1>
+            <p>You have successfully entered your protected space.</p>
+        </div>
+
+        <div class="shield">🛡️</div>
+    </div>
+
+    <div class="cards">
+
+        <div class="status">
+            <div class="symbol">✓</div>
+            <h3>Authentication</h3>
+            <p>Your login session is currently active.</p>
+            <span>ACTIVE</span>
+        </div>
+
+        <div class="status">
+            <div class="symbol">🔒</div>
+            <h3>Security</h3>
+            <p>Your account is protected.</p>
+            <span>PROTECTED</span>
+        </div>
+
+        <div class="status">
+            <div class="symbol">↟</div>
+            <h3>Access</h3>
+            <p>Successful authentication verified.</p>
+            <span>VERIFIED</span>
+        </div>
+
+    </div>
+
+    <div class="security">
+
+        <small>ACCOUNT</small>
+        <h2>Security Center</h2>
+
+        <div class="row">
+            <span>Username</span>
+            <b id="username"></b>
+        </div>
+
+        <div class="row">
+            <span>Account Status</span>
+            <b class="green">Authenticated</b>
+        </div>
+
+        <div class="row">
+            <span>Session</span>
+            <b>Active</b>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+
+    </div>
+
+</div>
+
+<script>
+
+let name = localStorage.getItem("name");
+
+if (!name) {
+    window.location.href = "index.html";
+}
+
+document.getElementById("userName").innerText = name;
+document.getElementById("username").innerText = name;
+
+function logout() {
+    window.location.href = "index.html";
+}
+
+</script>
+
+</body>
+</html>
