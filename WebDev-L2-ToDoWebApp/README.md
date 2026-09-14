@@ -40,14 +40,6 @@ JavaScript – Manages functionality, events, and DOM operations
 localStorage – Keeps tasks saved in the browser
 
 
-📂 Project Files
-
-To-Do-Web-App/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
 
 🎯 Project Goal
 
