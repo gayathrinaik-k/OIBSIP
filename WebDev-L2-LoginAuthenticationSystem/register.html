@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SecureGate - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="logo">SG</div>
+<h1>SecureGate</h1>
+<p class="subtitle">Create your secure account</p>
+
+<div class="box">
+    <p class="welcome">GET STARTED</p>
+    <h2>Create Account</h2>
+    <p class="info">Register to access your secure dashboard.</p>
+
+    <form id="registerForm">
+
+        <label>Full Name</label>
+        <input type="text" id="name"
+               placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" id="email"
+               placeholder="Enter your email" required>
+
+        <label>Password</label>
+        <input type="password" id="password"
+               placeholder="Minimum 8 characters" required>
+
+        <p id="error"></p>
+
+        <button type="submit">Create Account →</button>
+    </form>
+
+    <p class="bottom">
+        Already have an account?
+        <a href="index.html">Sign In</a>
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
